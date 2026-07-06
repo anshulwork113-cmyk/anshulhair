@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshul Shihara | Hair Education & Recovery</title>
+    <meta name="description" content="Evidence-based hair education and simplified recovery frameworks.">
+    
+    <!-- Fonts: Inter and Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #111827;
+            background-color: #ffffff;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Manrope', sans-serif;
+            letter-spacing: -0.02em;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .card-subtle {
+            background-color: #F9FAFB;
+            border: 1px solid #E5E7EB;
+            transition: all 0.3s ease;
+        }
+        .card-subtle:hover {
+            border-color: #D1D5DB;
+            transform: translateY(-2px);
+        }
+        .btn-primary {
+            background-color: #111827;
+            color: white;
+            transition: all 0.2s ease;
+        }
+        .btn-primary:hover {
+            background-color: #374151;
+            transform: translateY(-1px);
+        }
+        .accent-color { color: #3b82f6; } /* Subtle Blue Accent */
+        .bg-accent { background-color: #3b82f6; }
+
+        /* Minimal Fade-in Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="font-extrabold text-xl tracking-tighter">ANSHUL.</div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="#story" class="hover:text-black transition-colors">My Story</a>
+                <a href="#youtube" class="hover:text-black transition-colors">Free Guides</a>
+                <a href="#blueprint" class="hover:text-black transition-colors">Blueprint</a>
+                <a href="#consultation" class="hover:text-black transition-colors">Consultation</a>
+            </div>
+            <a href="#consultation" class="text-sm font-semibold bg-black text-white px-4 py-2 rounded-full">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 md:pt-48 md:pb-32 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="reveal">
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.1] mb-6">
+                    Hair Loss Doesn't Have to Be <span class="text-gray-400">Confusing.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-lg leading-relaxed">
+                    I document my own hair journey and simplify evidence-based hair education so you can make informed decisions with confidence.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#youtube" class="btn-primary px-8 py-4 rounded-2xl font-semibold text-center">Watch Free Guides</a>
+                    <a href="#consultation" class="border border-gray-200 px-8 py-4 rounded-2xl font-semibold text-center hover:bg-gray-50 transition-all">Book a Consultation</a>
+                </div>
+            </div>
+            <div class="reveal delay-200 relative">
+                <div class="aspect-square bg-gray-100 rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
+                    <!-- Replace with your image -->
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" alt="Anshul Shihara" class="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700">
+                </div>
+                <!-- Decorative element -->
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl hidden md:block">
+                    <div class="flex items-center gap-3">
+                        <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                        <p class="text-sm font-medium text-gray-700">Currently accepting consultations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY STORY -->
+    <section id="story" class="py-24 bg-gray-50 px-6">
+        <div class="max-w-3xl mx-auto text-center reveal">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12">My Story</h2>
+            <div class="text-left space-y-8 bg-white p-8 md:p-12 rounded-[2.5rem] border border-gray-100 shadow-sm leading-relaxed text-gray-700 text-lg">
+                <p>
+                    When I was 20, I started noticing my hair thinning and losing density. Like many people, I tried almost everything—natural serums, hair growth shampoos, frequent dermatologist visits, and countless products that promised results.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-50 p-3 rounded-xl text-blue-600"><i data-lucide="search"></i></div>
+                        <p class="text-sm font-medium">Separated evidence-based facts from marketing myths.</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-gray-50 p-3 rounded-xl text-gray-600"><i data-lucide="video"></i></div>
+                        <p class="text-sm font-medium">Documented every step of the journey publicly.</p>
+                    </div>
+                </div>
+
+                <p>
+                    Along the way, I documented everything I learned, separated evidence from myths, and built a framework that helped me better understand hair loss. Today, I share that journey so others can learn faster, avoid common mistakes, and feel less alone.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- YOUTUBE SECTION -->
+    <section id="youtube" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6 reveal">
+            <div class="max-w-2xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Learn Everything for Free</h2>
+                <p class="text-gray-600 text-lg">
+                    Most of my educational content is available completely free on YouTube. I break down hair loss science into simple, practical videos so anyone can understand it without getting overwhelmed.
+                </p>
+            </div>
+            <a href="#" class="flex items-center gap-2 font-bold text-red-600 hover:opacity-80 transition-opacity">
+                Subscribe on YouTube <i data-lucide="external-link" class="w-4 h-4"></i>
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Video Card 1 -->
+            <div class="reveal card-subtle rounded-3xl overflow-hidden p-4">
+                <div class="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
+                         <i data-lucide="play-circle" class="text-white w-12 h-12"></i>
+                    </div>
+                    <div class="w-full h-full bg-gray-300"></div> <!-- Replace with Thumbnail Img -->
+                </div>
+                <h3 class="font-bold text-lg mb-2">Understanding Early Signs</h3>
+                <p class="text-sm text-gray-500 mb-6">How to tell the difference between normal shedding and actual thinning.</p>
+                <button class="w-full py-3 bg-white border border-gray-200 rounded-xl text-sm font-semibold hover:bg-gray-50 transition-colors">Watch Video</button>
+            </div>
+
+            <!-- Video Card 2 -->
+            <div class="reveal delay-100 card-subtle rounded-3xl overflow-hidden p-4">
+                <div class="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
+                         <i data-lucide="play-circle" class="text-white w-12 h-12"></i>
+                    </div>
+                    <div class="w-full h-full bg-gray-300"></div>
+                </div>
+                <h3 class="font-bold text-lg mb-2">The Science of Scalp Health</h3>
+                <p class="text-sm text-gray-500 mb-6">Why the environment of your scalp matters more than the shampoo you use.</p>
+                <button class="w-full py-3 bg-white border border-gray-200 rounded-xl text-sm font-semibold hover:bg-gray-50 transition-colors">Watch Video</button>
+            </div>
+
+            <!-- Video Card 3 -->
+            <div class="reveal delay-200 card-subtle rounded-3xl overflow-hidden p-4">
+                <div class="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
+                         <i data-lucide="play-circle" class="text-white w-12 h-12"></i>
+                    </div>
+                    <div class="w-full h-full bg-gray-300"></div>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Top 5 Hair Myths</h3>
+                <p class="text-sm text-gray-500 mb-6">Debunking common misconceptions that cost people thousands of dollars.</p>
+                <button class="w-full py-3 bg-white border border-gray-200 rounded-xl text-sm font-semibold hover:bg-gray-50 transition-colors">Watch Video</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- HAIR RECOVERY GUIDE -->
+    <section id="blueprint" class="py-24 bg-gray-50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="reveal">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Hair Recovery Blueprint</h2>
+                    <blockquote class="text-lg text-gray-600 border-l-4 border-gray-200 pl-6 mb-8 italic">
+                        "This guide is the exact framework I created for myself while trying to understand hair loss. It organizes hair care into simple, stage-wise solutions."
+                    </blockquote>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Instead of searching through hundreds of videos and articles, you'll have one place to understand the fundamentals and learn a logical approach to hair care.
+                    </p>
+                </div>
+
+                <div class="reveal delay-200">
+                    <div class="bg-white p-8 md:p-12 rounded-[2.5rem] border border-gray-200 shadow-xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-black text-white px-6 py-2 rounded-bl-2xl font-bold text-sm">
+                            $49 <!-- Pricing Editable -->
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Hair Recovery Blueprint</h3>
+                        <p class="text-gray-500 mb-8">A practical educational guide designed to help you understand hair loss and long-term consistency.</p>
+                        
+                        <ul class="space-y-4 mb-10">
+                            <li class="flex items-center gap-3 text-gray-700">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Stage-wise approach
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-700">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Treatment overview
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-700">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Lifestyle framework
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-700">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Progress tracker
+                            </li>
+                        </ul>
+
+                        <button class="btn-primary w-full py-5 rounded-2xl font-bold text-lg">Get the Guide</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONSULTATION SECTION -->
+    <section id="consultation" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center flex-row-reverse">
+                <div class="order-2 md:order-1 reveal">
+                    <div class="bg-gray-900 text-white p-8 md:p-12 rounded-[2.5rem] shadow-2xl relative">
+                        <div class="absolute top-0 right-0 bg-blue-600 text-white px-6 py-2 rounded-bl-2xl font-bold text-sm">
+                            $99 <!-- Pricing Editable -->
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Personal Hair Consultation</h3>
+                        <p class="text-gray-400 mb-8">A one-on-one educational session to review your situation and build a clear plan.</p>
+                        
+                        <ul class="space-y-4 mb-10">
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <i data-lucide="calendar" class="w-5 h-5 text-blue-400"></i> 45-minute video call
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <i data-lucide="clipboard-list" class="w-5 h-5 text-blue-400"></i> Hair history review
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <i data-lucide="help-circle" class="w-5 h-5 text-blue-400"></i> Personalized Q&A
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <i data-lucide="file-text" class="w-5 h-5 text-blue-400"></i> Post-session summary
+                            </li>
+                        </ul>
+
+                        <button class="bg-white text-black w-full py-5 rounded-2xl font-bold text-lg hover:bg-gray-100 transition-colors">Book Consultation</button>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2 reveal delay-200">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Let's Talk</h2>
+                    <blockquote class="text-lg text-gray-600 border-l-4 border-gray-200 pl-6 mb-8 italic leading-relaxed">
+                        "Think of me as an older brother who's already walked this path and wants to help you navigate yours."
+                    </blockquote>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Hair loss can feel confusing and frustrating, and having someone listen can make a real difference. If you want personalized educational guidance or just want clarity on your next steps, feel free to book a session.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DISCLAIMER -->
+    <section class="py-12 px-6 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-gray-50 p-8 rounded-3xl">
+                <div class="flex items-center gap-2 mb-4 text-gray-400">
+                    <i data-lucide="alert-circle" class="w-5 h-5"></i>
+                    <span class="text-sm font-bold uppercase tracking-widest">Medical Disclaimer</span>
+                </div>
+                <p class="text-sm text-gray-500 leading-relaxed">
+                    This website provides educational information only. I am not a dermatologist or medical professional. My guides and consultations are intended to educate and share personal experience, not diagnose conditions, prescribe treatments, or replace professional medical advice. Always consult a qualified dermatologist for medical concerns.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-2">
+                    <div class="font-extrabold text-2xl tracking-tighter mb-6">ANSHUL.</div>
+                    <p class="text-gray-500 max-w-sm mb-8 text-sm">Simplifying hair education through personal experience and evidence-based research.</p>
+                    <div class="flex space-x-5">
+                        <a href="https://instagram.com/anshulfit_" class="text-gray-400 hover:text-black transition-colors"><i data-lucide="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-black transition-colors"><i data-lucide="youtube"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-black transition-colors"><i data-lucide="mail"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Resources</h4>
+                    <ul class="space-y-4 text-sm text-gray-500 font-medium">
+                        <li><a href="#youtube" class="hover:text-black">Watch Guides</a></li>
+                        <li><a href="#blueprint" class="hover:text-black">Recovery Blueprint</a></li>
+                        <li><a href="#consultation" class="hover:text-black">Consultations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Links</h4>
+                    <ul class="space-y-4 text-sm text-gray-500 font-medium">
+                        <li><a href="#" class="hover:text-black">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-black">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-black">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-100 text-center text-xs text-gray-400 font-medium">
+                © 2026 Anshul Shihara. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Scroll Reveal Logic
+        const reveals = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        reveals.forEach(reveal => revealObserver.observe(reveal));
+    </script>
+</body>
+</html>
